@@ -7,8 +7,9 @@ using System.Web.UI.WebControls;
 
 public partial class Cita : System.Web.UI.Page
 {
+    Conexion c = new Conexion();
     protected void Page_Load(object sender, EventArgs e)
     {
-
+       
     }
 }

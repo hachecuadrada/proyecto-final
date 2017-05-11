@@ -34,11 +34,11 @@
             <td colspan="3">
                 <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
                     <Items>
-                        <asp:MenuItem Text="Inicio" Value="Inicio"></asp:MenuItem> 
-                        <asp:MenuItem Text="¿Quienes somos?" Value="¿Quienes somos?"></asp:MenuItem>
-                        <asp:MenuItem Text="Armazones " Value="New Item"></asp:MenuItem>
-                        <asp:MenuItem Text="Tratamiento" Value="New Item"></asp:MenuItem>
-                        <asp:MenuItem Text="Cita " Value="New Item"></asp:MenuItem>
+                        <asp:MenuItem Text="Inicio" Value="Inicio" NavigateUrl="~/Index.aspx" ></asp:MenuItem> 
+                        <asp:MenuItem Text="¿Quienes somos?" Value="¿Quienes somos?" NavigateUrl="~/Quienes somos.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Armazones " Value="New Item" NavigateUrl="~/Armazones.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Tratamiento" Value="New Item" NavigateUrl="~/Tratamientos.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Cita " Value="New Item" NavigateUrl="~/Cita.aspx"></asp:MenuItem>
                     </Items>
                     <StaticHoverStyle BackColor="#00CC00" ForeColor="White" />
                     <StaticMenuItemStyle Font-Size="X-Large" ForeColor="Black" HorizontalPadding="40px" />
