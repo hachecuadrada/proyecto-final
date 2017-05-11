@@ -26,7 +26,7 @@ public class Conexion
         string sentencia = "";
         try
         {
-            sentencia = $"Insert into Usuarios values ({id}, '{contraseña}', '{usuario}')";
+            //sentencia = $"Insert into Usuarios values ({id}, '{contraseña}', '{usuario}')";
             cmd = new SqlCommand(sentencia, cn);
             cmd.ExecuteNonQuery();
         }
